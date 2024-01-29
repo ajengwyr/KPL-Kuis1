@@ -21,10 +21,10 @@ with open('config.yml') as file:
 
 # Initialize authenticator
 authenticator = stauth.Authenticate(
-    config['credentials'],
-    config['cookie']['name'],
-    config['cookie']['key'],
-    config['cookie']['expiry_days']
+    dict(st.secrets['credentials']),
+    st.secrets['cookie']['name'],
+    st.secrets['cookie']['key'],
+    st.secrets['cookie']['expiry_days']
 )
 
 # Define main function
