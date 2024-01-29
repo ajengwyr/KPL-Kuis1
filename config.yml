@@ -1,0 +1,18 @@
+cookie:
+  expiry_days: 0
+  key: some_signature_key
+  name: some_cookie_name
+credentials:
+  usernames:
+    halo:
+      email: halo@gmail.com
+      name: halo
+      password: $2b$12$qwanc0QrN.uEv6YaqNbOvO1E5135Sm74oi3IZP2VIXxLcP/DJOeBm
+    jsmith:
+      email: jsmith@gmail.com
+      name: John Smith
+      password: $2b$12$bY3jyg/TGRN/UmssZBiA8ukpqv/ekUBpga7LgGttCNvB8Y3ucSPU2
+    wiyar:
+      email: wiyar@gmail.com
+      name: Wiyar Sejati
+      password: $2b$12$9glyoUbSZpHYbXdgOmHlneK/VxsWFOmOPEeMPp1CJT6HWq2Kp3PK.
